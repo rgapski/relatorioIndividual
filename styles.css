@@ -1,0 +1,101 @@
+/* Definir a fonte geral */
+body {
+    font-family: "Times New Roman", Times, serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Definindo largura máxima para o conteúdo */
+main, header, footer {
+    max-width: 1000px;
+    width: 90%;
+}
+
+/* Estilizando o cabeçalho */
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+header p {
+    margin: 5px 0;
+}
+
+/* Estilizar o corpo */
+main {
+    padding: 20px;
+    text-align: left;
+}
+
+main h2 {
+    font-size: 1.5em;
+    margin-top: 30px;
+}
+
+section p, section ul, section ol {
+    margin: 10px 0;
+}
+
+ol[type="I"] {
+    list-style-type: upper-roman;
+}
+
+/* Estilizando a equipe */
+section:nth-child(1) p {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+/* Estilo do diagrama */
+figure {
+    text-align: center;
+    margin: 20px 0;
+}
+
+figure img {
+    max-width: 600px;
+    width: 80%;
+}
+
+figcaption {
+    font-style: italic;
+    margin-top: 5px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+footer img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+footer .social {
+    margin-top: 10px;
+}
+
+footer .social a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.1em;
+}
+
+footer .social a img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
